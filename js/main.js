@@ -1,1 +1,2 @@
-console.log('Hello');
+// INCLUDE SASS
+require('../sass/_main.scss');
