@@ -1,0 +1,20 @@
+.game-container {
+    @include flex(center, center, row);
+}
+
+.game {
+    @include max-size;
+    @include flex(flex-start, flex-start, column);
+
+    &__row {
+        flex: 1;
+        @include flex;
+    }
+
+    &__cell {
+        flex: 1;
+        @include flex(center, center, row);
+        padding: 4em;
+    }
+    
+}

@@ -1,0 +1,17 @@
+.game {
+    background: red;
+    
+    &__row {
+        background: blue;
+    }
+
+    &__cell {
+        background: #fff;
+        border: .05em solid black;
+
+        &:hover {
+            cursor: pointer;
+            background: #A0A0A0;
+        }
+    }
+}
