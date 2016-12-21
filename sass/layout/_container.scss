@@ -1,0 +1,5 @@
+.container {
+    @include max-size;
+    background: transparentize(aqua, 0.4);
+    text-align: center;
+}
